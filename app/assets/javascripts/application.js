@@ -23,5 +23,7 @@
 //= require react-bootstrap-0.28.3.js
 //= require classNames-2.2.3
 //= require uuid-js-0.7.5
+//= require components/PanelWithButton
+//= require LandingPage
 //= require_tree .
 
