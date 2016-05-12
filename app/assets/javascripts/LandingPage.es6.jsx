@@ -118,6 +118,9 @@ $(() => {
     const landingPage = LandingPage();
     // Provide a container where your application will get rendered.
     // Here we assume that there is a div with id "greeter":
-    ReactDOM.render(landingPage.ui(), document.getElementById("conferences"));
+    let elem = document.getElementById("conferences");
+    if (elem) {
+        ReactDOM.render(landingPage.ui(), elem);
+    }
 });
 
